@@ -135,7 +135,7 @@ const runOnArray = (array) => {
 async function fetchDataFromServer() {
   try {
     const response = await fetch(
-      "https://my-first-server-on-cloude.onrender.com"
+      "https://my-first-server-on-cloude.onrender.com/product/all"
     );
     if (!response.ok) {
       throw new Error("Network response was not ok");

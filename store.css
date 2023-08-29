@@ -1,0 +1,252 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #ffdecb;
+  color: #574d51;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+}
+
+header h1 {
+  color: #4d4d4d;
+}
+
+.header-icon {
+  color: #4d4d4d;
+  cursor: pointer;
+  font-size: 30px;
+}
+
+footer {
+  background-color: #4d4d4d;
+  color: white;
+  padding: 10px;
+  bottom: 0;
+  width: 100%;
+  margin-top: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.middle-div {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: #ffbf9b;
+}
+
+.nav-button {
+  margin-right: 5px;
+  background-color: #ffbf9b;
+  color: #4d4d4d;
+  padding: 5px 40px;
+  border: 2px #4d4d4d solid;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.nav-button:hover {
+  background-color: #ffdecb;
+}
+.search-area {
+  display: flex;
+  align-items: center;
+  margin-left: 300px;
+}
+
+.search-input {
+  padding: 5px;
+  border: 1px solid #4d4d4d;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.go-button {
+  background-color: #ffdecb;
+  color: #4d4d4d;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.cards-area {
+  background-color: #f5ebeb;
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+}
+.amount-div {
+  display: flex;
+  justify-content: center;
+  .card-amount {
+    background-color: #ffbf9b;
+    border-radius: 50%;
+    padding: 10px;
+    border: 1px #4d4d4d solid;
+    color: #574d51;
+  }
+  .plus-one,
+  .cons-one {
+    background-color: #ffdecb;
+    border: 0;
+    font-size: larger;
+    font-weight: 700;
+  }
+}
+
+.star-div {
+  justify-self: end;
+}
+
+#xx {
+  color: #4d4d4d;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+.card {
+  background-color: #ffdecb;
+  border-radius: 30px;
+  width: calc(20% - 20px);
+  margin-bottom: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 10px;
+  box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+}
+.white-space {
+  flex: 1;
+  padding: 0;
+  margin: 0;
+}
+.card-img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+.card {
+  background: linear-gradient(to bottom, white 60%, #ffdecb 40%);
+}
+.card:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+}
+
+.card-text {
+  color: #4d4d4d;
+  margin-top: 10px;
+  text-align: center;
+}
+.card-hr {
+  font-size: large;
+}
+.star-div {
+  display: flex;
+  flex-direction: row;
+}
+.icon-div {
+  display: flex;
+  flex-direction: row;
+}
+.amount-div {
+  display: flex;
+  flex-direction: row;
+}
+.d-none {
+  display: none;
+}
+.d-block {
+  display: block;
+}
+.card-page {
+  width: 900px;
+  height: 500px;
+  background-color: #f5ebeb;
+  justify-content: center;
+  align-content: center;
+  border-radius: 20px;
+  border: 1px #4d4d4d solid;
+  display: flex;
+}
+.img-page {
+  width: 50%;
+  height: 100%;
+  border-radius: 20px;
+}
+.back-icon1 {
+  background-color: #f5ebeb;
+  padding: 2px;
+  border-radius: 50%;
+}
+.back-icon1 :active {
+  background-color: aquamarine;
+  padding: 4px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.text-page {
+  width: 50%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.material-icons:hover {
+  background-color: aquamarine;
+}
+.add-card {
+  width: 900px;
+  height: 500px;
+  padding: 20px;
+  background-color: #f5ebeb;
+  justify-content: center;
+  align-content: center;
+  border-radius: 20px;
+  border: 1px #4d4d4d solid;
+  display: flex;
+  flex-direction: column;
+}
+.action-button {
+  justify-self: start;
+  align-self: baseline;
+  padding: 5px 10px;
+  background-color: #ffbf9b;
+  border: 1px #4d4d4d solid;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.2);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+.action-button:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+}

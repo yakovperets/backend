@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" type="text/css" href="./store.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <title>project1</title>
+  </head>
+  <body id="ccccccc">
+    <header>
+      <div><h1>Inventory Management</h1></div>
+      <div class="header-icons">
+        <i class="material-icons" onclick="home()">home</i>
+        <i class="material-icons" onclick="plusOne()">add_circle_outline</i>
+      </div>
+    </header>
+    <div class="d-block" id="home-page">
+      <nav>
+        <!-- <button class="nav-button" onclick="myFilter1()">All Products</button> -->
+        <button class="nav-button" id="kkkkkkkkk" onclick="start()">
+          GET PRODUCT TO CONSOLE
+        </button>
+        <!-- <button class="nav-button" onclick="myFilter3()">Women</button>
+        <button class="nav-button" onclick="myFilter4()">Jewellery</button>
+        <button class="nav-button" onclick="myFilter5()">Electronics</button> -->
+        <div class="search-area">
+          <input type="text" class="search-input" placeholder="Search" />
+          <button class="go-button" onclick="myFilterSearch()">
+            <i class="material-icons">search</i>
+          </button>
+        </div>
+      </nav>
+      <div id="xx" class="center"></div>
+      <main id="cards-area"></main>
+    </div>
+    <footer>
+      Technical Support
+      <i class="material-icons">phone</i>
+      +1.555.555.5555
+    </footer>
+
+    <script src="./store.js"></script>
+  </body>
+</html>
